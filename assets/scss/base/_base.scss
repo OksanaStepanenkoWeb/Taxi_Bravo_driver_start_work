@@ -1,0 +1,56 @@
+body {
+    height: auto;
+    background-color: $white;
+    min-width: 300px;
+}
+
+header,
+main,
+footer {
+    position: relative;
+    padding: 0 80px;
+    box-sizing: border-box;
+
+    h1, h2, h3, span, p, a {
+        @include f_proxima_600;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        color: $dark_blue;
+        margin: 0;
+    }
+}
+
+main {
+    flex: 1 0 auto !important;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 80px;
+
+    @include max-screen(1024px) {
+        padding: 0 20px;
+    }
+}
+
+header {
+    position: relative;
+    z-index: 3;
+}
+
+footer {
+    position: relative;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}

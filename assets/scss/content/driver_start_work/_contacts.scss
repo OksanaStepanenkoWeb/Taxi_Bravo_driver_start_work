@@ -1,0 +1,33 @@
+.contacts {
+    max-width: 1480px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    &__item {
+       max-width: 725px;
+       box-sizing: border-box;
+       width: 100%;
+       background: $light_gray;
+       border-radius: 7px;
+       padding: 30px 45px 25px;
+       color: $dark_blue;
+    }
+
+    &__item-book {
+       max-width: 770px;
+       box-sizing: border-box;
+       padding: 45px;
+       width: 100%;
+       background: $orange;
+       color: $white;
+       position: absolute;
+       z-index: 20;
+       right: 40px;
+       bottom: 310px;
+       display: flex;
+       justify-content: space-between;
+       border-radius: 7px;
+   }
+}

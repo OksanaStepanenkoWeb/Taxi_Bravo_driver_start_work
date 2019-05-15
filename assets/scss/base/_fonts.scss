@@ -1,0 +1,54 @@
+@import "../fonts/CenturyGothic/stylesheet.css";
+@import "../fonts/ProximaNova/stylesheet.css";
+@import "../fonts/Flaticon/font/flaticon.css";
+
+[class*="flaticon-"]:before,
+[class*="flaticon-"]:after {
+    font-weight: normal;
+    margin-left: 0;
+}
+
+$f_gothic: 'Century Gothic', 'Arial', sans-serif;
+
+@mixin f_proxima_100 ($font-style: normal) {
+    font-family: 'Proxima Nova Th', 'Arial', sans-serif;
+    font-weight: 100;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_300 ($font-style: normal) {
+    font-family: 'Proxima Nova Th', 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_400 ($font-style: normal) {
+    font-family: 'Proxima Nova Rg', 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_600 ($font-style: normal) {
+    font-family: 'Proxima Nova Lt', 'Arial', sans-serif;
+    font-weight: 600;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_700 ($font-style: normal) {
+    font-family: 'Proxima Nova Rg', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_800 ($font-style: normal) {
+    font-family: 'Proxima Nova Th', 'Arial', sans-serif;
+    font-weight: 800;
+    font-style: $font-style;
+}
+
+@mixin f_proxima_800 ($font-style: normal) {
+    font-family: 'Proxima Nova Bl', 'Arial', sans-serif;
+    font-weight: 900;
+    font-style: $font-style;
+}
+

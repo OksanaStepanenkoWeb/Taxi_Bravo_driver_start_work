@@ -1,0 +1,22 @@
+.btn-book-car-wrap {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-book-car {
+    max-width: 360px;
+    width: 100%;
+    border-radius: 7px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: $dark_blue;
+    background: $white;
+    text-transform: uppercase;
+    font-family: $f_gothic;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}

@@ -1,0 +1,14 @@
+.book-car {
+    &__header {
+        font-family: $f_gothic;
+        font-weight: bold;
+        color: $white;
+        font-size: 37px;
+        padding-bottom: 17px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        color: $white;
+    }
+}

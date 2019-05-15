@@ -1,0 +1,14 @@
+.taxi-wrapper-start-work {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    height: 460px;
+    max-width: 710px;
+    width: 100%;
+    background-image: url("/assets/img/taxi-start.jpg");
+    background-size: cover;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 20;
+}

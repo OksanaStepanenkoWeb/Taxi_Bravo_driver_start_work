@@ -1,0 +1,42 @@
+.start-work {
+    max-width: 640px;
+    width: 100%;
+
+    &__header {
+        font-family: $f_gothic;
+        font-weight: bold;
+        color: $dark_blue;
+        font-size: 37px;
+        padding-bottom: 17px;
+        letter-spacing: 2px;
+
+        &_book {
+            color: $white;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 30px;
+        border-top: 1px solid $gray;
+    }
+
+    &__text-phone {
+        font-family: $f_gothic;
+        font-weight: bold;
+        color: $orange;
+        font-size: 30px;
+        font-style: italic;
+        letter-spacing: 5px;
+        padding-top: 20px;
+    }
+
+    &__driver {
+        @include f_proxima_600;
+        color: $dark_blue;
+        letter-spacing: 1.3px;
+    }
+}
