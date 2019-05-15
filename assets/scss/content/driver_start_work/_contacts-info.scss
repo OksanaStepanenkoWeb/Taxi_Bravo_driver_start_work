@@ -68,4 +68,10 @@
         max-width: 1070px;
         width: 100%;
     }
+
+    &_instruction {
+        max-width: 640px;
+        width: 100%;
+        align-self: flex-end;
+    }
 }

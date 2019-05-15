@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 08/05/2019 13:03
+    Creation date: 15/05/2019 14:06
     */
 
     @font-face {
@@ -47,6 +47,8 @@
 .flaticon-clock:before { content: "\f107"; }
 .flaticon-money-bag:before { content: "\f108"; }
 .flaticon-headset:before { content: "\f109"; }
+.flaticon-card:before { content: "\f10a"; }
+.flaticon-taxi:before { content: "\f10b"; }
     
     $font-Flaticon-down-arrow: "\f100";
     $font-Flaticon-back: "\f101";
@@ -58,3 +60,5 @@
     $font-Flaticon-clock: "\f107";
     $font-Flaticon-money-bag: "\f108";
     $font-Flaticon-headset: "\f109";
+    $font-Flaticon-card: "\f10a";
+    $font-Flaticon-taxi: "\f10b";
