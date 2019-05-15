@@ -4,5 +4,9 @@ $orange: #f36421;
 $blue: #7688a1;
 $dark_blue: #25355a;
 $gray: rgba(118,136,161,0.3);
+$yellow: #ffe062;
 $light_gray: #f1f1f1;
 $light_white: rgba(255, 255, 255, 0.3);
+
+$gradient_blue: linear-gradient(135deg, $blue, lighten($blue, 30%));
+$gradient_orange: linear-gradient(135deg, $orange, $yellow);
