@@ -1,0 +1,19 @@
+.btn-balance {
+    width: 80px;
+    height: 80px;
+    background: $white;
+    border-radius: 7px;
+    position: relative;
+}
+
+.flaticon-money-bag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:before{
+        color: $orange;
+        font-size: 40px;
+    }
+}

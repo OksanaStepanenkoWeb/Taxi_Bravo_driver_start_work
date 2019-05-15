@@ -4,9 +4,13 @@
     height: 390px;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    top: 250px;
+    left: 0;
 
     &__cash{
         max-width: 500px;
+        box-sizing: border-box;
         width: 100%;
         padding: 30px;
         background: $gradient_blue;
@@ -30,6 +34,10 @@
             color: $white;
             font-size: 20px;
         }
+
+        p:last-of-type {
+            padding-bottom: 58px;
+        }
     }
 
     &__card {
@@ -38,6 +46,7 @@
         padding: 30px;
         background: $gradient_orange;
         border-radius: 7px;
+        box-sizing: border-box;
 
         h3, p {
             color: $white;
@@ -61,5 +70,13 @@
             font-style: italic;
             font-size: 20px;
         }
+
+        p:last-of-type {
+            padding-bottom: 27px;
+        }
     }
+}
+
+.balance-up-pos-wrap {
+    position: relative;
 }
